@@ -8,7 +8,7 @@ engine = pyttsx3.init()
 openai.api_key = ""
 
 def listen_command():
-    """The function will return the recognized command"""
+    
     
     try:
         r = sr.Recognizer()
